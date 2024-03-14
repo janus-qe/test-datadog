@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata: 
   name: test-datadog
-  annotations: 
-    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-ef8923ff546afc05b226380d66d51672,https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-1c0aa01e6f31f48a41086d2e6f560197
+  description: |
+    A test datadog service
+  annotations:
+    datadoghq.com/site: datadoghq.com
+    datadoghq.com/dashboard-url: datadoghq.com,p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-ef8923ff546afc05b226380d66d51672,p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-1c0aa01e6f31f48a41086d2e6f560197
+    # https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-ef8923ff546afc05b226380d66d51672,
+    # https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-1c0aa01e6f31f48a41086d2e6f560197
 spec:
   type: website
-  owner: janus-authors
+  owner: rhdh-qes
   lifecycle: experimental
