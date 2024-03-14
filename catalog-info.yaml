@@ -6,3 +6,5 @@ metadata:
     datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-ef8923ff546afc05b226380d66d51672,https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-1c0aa01e6f31f48a41086d2e6f560197
 spec:
   type: website
+  owner: rhdh-qes
+  lifecycle: experimental
