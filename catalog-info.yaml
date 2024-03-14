@@ -7,7 +7,7 @@ metadata:
   annotations:
     # Testing the Datadog Graph Import
     datadoghq.com/site: datadoghq.com
-    datadoghq.com/graph-token: 0bf76db7d7d8b09c5510f8c4f6a1bd3260420f5b7916d080836d497b7ee65da2&height=300
+    datadoghq.com/graph-token: 0bf76db7d7d8b09c5510f8c4f6a1bd3260420f5b7916d080836d497b7ee65da2
     
     # Testing the datadog dashboard import
     # datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-ef8923ff546afc05b226380d66d51672,https://p.datadoghq.com/sb/58f9e110-e176-11ee-b383-da7ad0900002-1c0aa01e6f31f48a41086d2e6f560197
